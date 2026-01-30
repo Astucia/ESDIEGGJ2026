@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://d0shohjo50y17"]
+
+[ext_resource type="Texture2D" uid="uid://c486l61ol8ae6" path="res://Images/Kings and Pigs/Sprites/09-Bomb/Bomb Off.png" id="1_yh4t8"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_yh4t8"]
+bounce = 20.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_m2vq8"]
+radius = 7.0
+
+[node name="RigidBody2D1" type="RigidBody2D" unique_id=841609639]
+physics_material_override = SubResource("PhysicsMaterial_yh4t8")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=223719707]
+texture = ExtResource("1_yh4t8")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1988767964]
+position = Vector2(0, 5)
+shape = SubResource("CircleShape2D_m2vq8")

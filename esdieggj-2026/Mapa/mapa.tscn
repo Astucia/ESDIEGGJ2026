@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://b0coyrtinh0gb"]
+
+[ext_resource type="PackedScene" uid="uid://5c7h2b8ma8fs" path="res://Mapa/tilemaps/tile_map_1.tscn" id="1_mvru3"]
+[ext_resource type="PackedScene" uid="uid://br2tr56wgmiut" path="res://Mapa/static_body_2d_1.tscn" id="2_n08sg"]
+[ext_resource type="PackedScene" uid="uid://d0shohjo50y17" path="res://Mapa/rigid_body_2d_1.tscn" id="3_n08sg"]
+[ext_resource type="PackedScene" uid="uid://co3srjqc0eiyl" path="res://Acordeon/character_body_2d.tscn" id="3_ydr4g"]
+[ext_resource type="PackedScene" uid="uid://ith7wt05y1wg" path="res://Acordeon/canvas_layer.tscn" id="5_ydr4g"]
+
+[node name="Mapa" type="Node2D" unique_id=1649605314]
+
+[node name="TileMap1" parent="." unique_id=1263065056 instance=ExtResource("1_mvru3")]
+
+[node name="CharacterBody2D" parent="." unique_id=2108436814 instance=ExtResource("3_ydr4g")]
+position = Vector2(362, 275)
+
+[node name="RigidBody2D1" parent="." unique_id=841609639 instance=ExtResource("3_n08sg")]
+position = Vector2(635, 421)
+
+[node name="StaticBody2D1" parent="." unique_id=693848838 instance=ExtResource("2_n08sg")]
+position = Vector2(593, 472)
+
+[node name="CanvasLayer" parent="." unique_id=2140566042 instance=ExtResource("5_ydr4g")]

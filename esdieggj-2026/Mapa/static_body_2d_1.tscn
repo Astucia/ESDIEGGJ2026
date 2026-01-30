@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://br2tr56wgmiut"]
+
+[ext_resource type="Texture2D" uid="uid://p4a7rut73o1e" path="res://Images/Kings and Pigs/Sprites/08-Box/Idle.png" id="1_6g8a3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_p1rrs"]
+size = Vector2(21, 16)
+
+[node name="StaticBody2D1" type="StaticBody2D" unique_id=693848838]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=538018279]
+position = Vector2(-0.5, 0)
+shape = SubResource("RectangleShape2D_p1rrs")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=564810858]
+texture = ExtResource("1_6g8a3")

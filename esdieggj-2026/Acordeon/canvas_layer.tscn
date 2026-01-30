@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://ith7wt05y1wg"]
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=2140566042]
+
+[node name="LabelVida" type="Label" parent="." unique_id=1914521205]
+offset_left = 56.0
+offset_top = 2.0
+offset_right = 96.0
+offset_bottom = 25.0
+text = "Vida:"
+
+[node name="LabelNumVida" type="Label" parent="." unique_id=1721920295]
+offset_left = 101.0
+offset_top = 2.0
+offset_right = 141.0
+offset_bottom = 25.0
+text = "3"
